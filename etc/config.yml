@@ -23,30 +23,25 @@ framework:
   MailerArgs: []
 
   Plugins: 
-    - 
-      AdminUI: {}
-
-    - 
-      CompressedCSSandJS: {}
-
-    - 
-      ErrorTemplates: {}
-
-    - 
-      Halo: {}
-
-    - 
-      LetMe: {}
-
-    - 
-      OnlineDocs: {}
-
-    - 
-      REST: {}
-
-    - 
-      SkeletonApp: {}
-
+    - AdminUI: {}
+    - CompressedCSSandJS: {}
+    - ErrorTemplates: {}
+    - Halo: {}
+    - LetMe: {}
+    - OnlineDocs: {}
+    - REST: {}
+    - SkeletonApp: {}
+    - SinglePage: {}
+    - SkeletonApp: {}
+    - REST: {}
+    - ErrorTemplates: {}
+    - OnlineDocs: {}
+    - User: {}
+    - Authentication::Password: {}
+    - OpenID: {}
+    - ActorMetadata: {}
+    - I18N:
+        js: 1
   PubSub: 
     Backend: Memcached
     Enable: ~
