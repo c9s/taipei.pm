@@ -7,7 +7,7 @@ use Jifty::DBI::Schema;
 use Taipei::Record schema {
 
 column
-  role => type is 'varchar',
+  role => type is 'varchar(255)',
   valid are qw(user staff admin),
   default is 'user',
   is immutable;

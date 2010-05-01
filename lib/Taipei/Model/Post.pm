@@ -7,10 +7,10 @@ use Jifty::DBI::Schema;
 use Taipei::Record schema {
 
 column title => 
-    type is 'varchar';
+    type is 'varchar(255)';
 
 column content =>
-    type is 'varchar';
+    type is 'text';
 
 
 };
