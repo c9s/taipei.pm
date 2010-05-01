@@ -25,7 +25,7 @@ sub render_page {
 
   div { { class is 'container' };
     div { { id is 'hd' };
-      set(title => $self->_title);
+        set(title => $self->_title);
     };
 
     div { { id is 'bd' };
