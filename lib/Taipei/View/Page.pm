@@ -20,13 +20,16 @@ sub render_body {
 }
 
 use utf8;
+
 sub render_page {
   my $self = shift;
 
   div { { class is 'container' };
-    div { { id is 'hd' };
+        # div { { id is 'hd' };
         set(title => $self->_title);
-    };
+
+
+        #};
 
     div { { id is 'bd' };
       Carp::cluck $self unless $self->content_code;
