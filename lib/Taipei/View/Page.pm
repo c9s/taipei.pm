@@ -1,9 +1,5 @@
 package Taipei::View::Page;
-use warnings;
-use strict;
-
-use strict;
-use warnings;
+use common::sense;
 use base qw/Jifty::View::Declare::Page/;
 use Class::Trigger;
 use Jifty::View::Declare::Helpers;
@@ -36,7 +32,6 @@ sub render_page {
       $self->content_code->();
     };
   };
-
 }
 
 sub render_footer {
