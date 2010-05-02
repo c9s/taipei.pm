@@ -11,3 +11,16 @@
 #site-footer ul {
     margin: 10px;
 }
+
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #3366FF;
+}
+
+a:hover {  text-decoration: underline; color: #0039E6; }
+
+
