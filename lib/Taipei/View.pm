@@ -18,6 +18,7 @@ template 'index.html' => page {
 
     div {  {  class is 'content' };
     
+        h1 {  _('Welcome') };
     
     };
 
