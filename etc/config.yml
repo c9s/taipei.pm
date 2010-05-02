@@ -1,6 +1,6 @@
 --- 
 framework: 
-  AdminMode: 1
+  AdminMode: 0
   ApplicationClass: Taipei
   ApplicationName: Taipei
   ApplicationUUID: C955C92A-511A-11DF-A48C-9BEB499BFDD7
@@ -34,7 +34,7 @@ framework:
     - OnlineDocs: {}
     - REST: {}
     - SkeletonApp: {}
-    - SinglePage: {}
+    # - SinglePage: {}
     - SkeletonApp: {}
     - REST: {}
     - ErrorTemplates: {}
